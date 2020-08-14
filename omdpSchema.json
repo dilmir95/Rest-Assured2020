@@ -1,0 +1,385 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "$id": "http://example.com/example.json",
+  "type": "object",
+  "title": "The root schema",
+  "description": "The root schema comprises the entire JSON document.",
+  "default": {},
+  "examples": [
+    {
+      "Title": "Frozen",
+      "Year": "2013",
+      "Rated": "PG",
+      "Released": "27 Nov 2013",
+      "Runtime": "102 min",
+      "Genre": "Animation, Adventure, Comedy, Family, Fantasy, Musical",
+      "Director": "Chris Buck, Jennifer Lee",
+      "Writer": "Jennifer Lee (screenplay by), Hans Christian Andersen (story inspired by: \"The Snow Queen\" by), Chris Buck (story by), Jennifer Lee (story by), Shane Morris (story by)",
+      "Actors": "Kristen Bell, Idina Menzel, Jonathan Groff, Josh Gad",
+      "Plot": "When the newly crowned Queen Elsa accidentally uses her power to turn things into ice to curse her home in infinite winter, her sister Anna teams up with a mountain man, his playful reindeer, and a snowman to change the weather condition.",
+      "Language": "English, Norwegian",
+      "Country": "USA",
+      "Awards": "Won 2 Oscars. Another 79 wins & 59 nominations.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMTQ1MjQwMTE5OF5BMl5BanBnXkFtZTgwNjk3MTcyMDE@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "7.4/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "90%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "75/100"
+        }
+      ],
+      "Metascore": "75",
+      "imdbRating": "7.4",
+      "imdbVotes": "554,501",
+      "imdbID": "tt2294629",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "N/A",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    }
+  ],
+  "required": [
+    "Title",
+    "Year",
+    "Rated",
+    "Released",
+    "Runtime",
+    "Genre",
+    "Director",
+    "Writer",
+    "Actors",
+    "Plot",
+    "Language",
+    "Country",
+    "Awards",
+    "Poster",
+    "Ratings",
+    "Metascore",
+    "imdbRating",
+    "imdbVotes",
+    "imdbID",
+    "Type",
+    "DVD",
+    "BoxOffice",
+    "Production",
+    "Website",
+    "Response"
+  ],
+  "additionalProperties": true,
+  "properties": {
+    "Title": {
+      "$id": "#/properties/Title",
+      "type": "string",
+      "title": "The Title schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "Frozen"
+      ]
+    },
+    "Year": {
+      "$id": "#/properties/Year",
+      "type": "string",
+      "title": "The Year schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "2013"
+      ]
+    },
+    "Rated": {
+      "$id": "#/properties/Rated",
+      "type": "string",
+      "title": "The Rated schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "PG"
+      ]
+    },
+    "Released": {
+      "$id": "#/properties/Released",
+      "type": "string",
+      "title": "The Released schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "27 Nov 2013"
+      ]
+    },
+    "Runtime": {
+      "$id": "#/properties/Runtime",
+      "type": "string",
+      "title": "The Runtime schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "102 min"
+      ]
+    },
+    "Genre": {
+      "$id": "#/properties/Genre",
+      "type": "string",
+      "title": "The Genre schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "Animation, Adventure, Comedy, Family, Fantasy, Musical"
+      ]
+    },
+    "Director": {
+      "$id": "#/properties/Director",
+      "type": "string",
+      "title": "The Director schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "Chris Buck, Jennifer Lee"
+      ]
+    },
+    "Writer": {
+      "$id": "#/properties/Writer",
+      "type": "string",
+      "title": "The Writer schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "Jennifer Lee (screenplay by), Hans Christian Andersen (story inspired by: \"The Snow Queen\" by), Chris Buck (story by), Jennifer Lee (story by), Shane Morris (story by)"
+      ]
+    },
+    "Actors": {
+      "$id": "#/properties/Actors",
+      "type": "string",
+      "title": "The Actors schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "Kristen Bell, Idina Menzel, Jonathan Groff, Josh Gad"
+      ]
+    },
+    "Plot": {
+      "$id": "#/properties/Plot",
+      "type": "string",
+      "title": "The Plot schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "When the newly crowned Queen Elsa accidentally uses her power to turn things into ice to curse her home in infinite winter, her sister Anna teams up with a mountain man, his playful reindeer, and a snowman to change the weather condition."
+      ]
+    },
+    "Language": {
+      "$id": "#/properties/Language",
+      "type": "string",
+      "title": "The Language schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "English, Norwegian"
+      ]
+    },
+    "Country": {
+      "$id": "#/properties/Country",
+      "type": "string",
+      "title": "The Country schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "USA"
+      ]
+    },
+    "Awards": {
+      "$id": "#/properties/Awards",
+      "type": "string",
+      "title": "The Awards schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "Won 2 Oscars. Another 79 wins & 59 nominations."
+      ]
+    },
+    "Poster": {
+      "$id": "#/properties/Poster",
+      "type": "string",
+      "title": "The Poster schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "https://m.media-amazon.com/images/M/MV5BMTQ1MjQwMTE5OF5BMl5BanBnXkFtZTgwNjk3MTcyMDE@._V1_SX300.jpg"
+      ]
+    },
+    "Ratings": {
+      "$id": "#/properties/Ratings",
+      "type": "array",
+      "title": "The Ratings schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": [],
+      "examples": [
+        [
+          {
+            "Source": "Internet Movie Database",
+            "Value": "7.4/10"
+          },
+          {
+            "Source": "Rotten Tomatoes",
+            "Value": "90%"
+          }
+        ]
+      ],
+      "additionalItems": true,
+      "items": {
+        "anyOf": [
+          {
+            "$id": "#/properties/Ratings/items/anyOf/0",
+            "type": "object",
+            "title": "The first anyOf schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": {},
+            "examples": [
+              {
+                "Source": "Internet Movie Database",
+                "Value": "7.4/10"
+              }
+            ],
+            "required": [
+              "Source",
+              "Value"
+            ],
+            "additionalProperties": true,
+            "properties": {
+              "Source": {
+                "$id": "#/properties/Ratings/items/anyOf/0/properties/Source",
+                "type": "string",
+                "title": "The Source schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                  "Internet Movie Database"
+                ]
+              },
+              "Value": {
+                "$id": "#/properties/Ratings/items/anyOf/0/properties/Value",
+                "type": "string",
+                "title": "The Value schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                  "7.4/10"
+                ]
+              }
+            }
+          }
+        ],
+        "$id": "#/properties/Ratings/items"
+      }
+    },
+    "Metascore": {
+      "$id": "#/properties/Metascore",
+      "type": "string",
+      "title": "The Metascore schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "75"
+      ]
+    },
+    "imdbRating": {
+      "$id": "#/properties/imdbRating",
+      "type": "string",
+      "title": "The imdbRating schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "7.4"
+      ]
+    },
+    "imdbVotes": {
+      "$id": "#/properties/imdbVotes",
+      "type": "string",
+      "title": "The imdbVotes schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "554,501"
+      ]
+    },
+    "imdbID": {
+      "$id": "#/properties/imdbID",
+      "type": "string",
+      "title": "The imdbID schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "tt2294629"
+      ]
+    },
+    "Type": {
+      "$id": "#/properties/Type",
+      "type": "string",
+      "title": "The Type schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "movie"
+      ]
+    },
+    "DVD": {
+      "$id": "#/properties/DVD",
+      "type": "string",
+      "title": "The DVD schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "N/A"
+      ]
+    },
+    "BoxOffice": {
+      "$id": "#/properties/BoxOffice",
+      "type": "string",
+      "title": "The BoxOffice schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "N/A"
+      ]
+    },
+    "Production": {
+      "$id": "#/properties/Production",
+      "type": "string",
+      "title": "The Production schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "N/A"
+      ]
+    },
+    "Website": {
+      "$id": "#/properties/Website",
+      "type": "string",
+      "title": "The Website schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "N/A"
+      ]
+    },
+    "Response": {
+      "$id": "#/properties/Response",
+      "type": "string",
+      "title": "The Response schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "True"
+      ]
+    }
+  }
+}
